@@ -46,3 +46,20 @@ function modifyLi(text) {
     return text
 }
 ```
+
+## Experience:
+4 months: supporting and developing a massive web app for handling html text document.
+
+## Education
+Russian University of Transport (MIIT), "Automation and telemechanics in railway transport", 2011 - 2016
+
+## Courses:
+1. [Основы HTML и CSS с нуля](https://www.udemy.com/course/html-css-from-zero/)
+1. [Полный курс по JavaScript + React - с нуля до результата](https://www.udemy.com/course/javascript_full/)
+1. [Современный JavaScript + Vue с нуля на реальных проектах](https://www.udemy.com/course/modern-javascript-from-beginning/)
+1. [Learn JavaScript](https://learn.javascript.ru/)
+1. Documentation, Google :)
+
+## Languages:
+1. Russian - Native
+1. English - Elementary/Pre-Intermediate
