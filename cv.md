@@ -20,3 +20,29 @@
 * **Vue.js** (v.2, Vuex, Vue Router)
 * **Git**
 * **Other** (Figma, Photoshop, Movavi VideoEditor, etc.)
+
+## Code examples
+### Education:
+1. [Movies: first education project on js](https://github.com/WiiJoy/prMovies), Udemy, Instructor: Иван Петриченко
+1. [FOOD: project for js](https://github.com/WiiJoy/FOOD), Udemy, Instructor: Иван Петриченко
+1. [Portfolio: last layout project](https://github.com/WiiJoy/portfolio), Udemy, Instructor: Иван Петриченко
+1. [TODO: standart education project](https://github.com/WiiJoy/todo-project), Udemy, Instructor: Денис Мещеряков
+1. [BudgetApp: first Vue experience](https://github.com/WiiJoy/budget-app), Udemy, Instructor: Денис Мещеряков
+1. [MoviesApp: education project on Vue and Vuex](https://github.com/WiiJoy/moviesapp)
+
+### Project:
+_**Description:** Given some text with html tags, return this text with replacement unmark list's items for items with 'li'_
+```
+function modifyLi(text) {
+    const regP = /\/(p|li)><p>(-|·)\s\D.+[,.;:]<\/p>/s
+
+    while (regP.test(text)) {
+        let foundP =  text.match(regP)
+
+        let handledP = foundP[0].replaceAll('</p>', '</li>').replaceAll('<p>- ', '<li>').replaceAll('<p>· ', '<li>')
+        text = text.replaceAll(foundP[0], handledP)
+    }
+
+    return text
+}
+```
