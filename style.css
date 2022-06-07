@@ -62,7 +62,7 @@ body {
 
 .header, .footer {
     padding: 0 20px;
-    background-color: #833535;
+    background-color: #538335;
 }
 
 .header {
@@ -126,7 +126,7 @@ body {
 
 .main__left {
     border-radius: 10px 10px 0 0;
-    background-color: #833535;
+    background-color: #538335;
     flex: 1;
     height: 100%;
 }
@@ -169,7 +169,7 @@ body {
     width: 350px;
     margin: 0 auto;
     background-color: #1B1B1B;
-    color: #833535; 
+    color: #538335; 
 }
 
 .photo__wrap {
@@ -218,7 +218,7 @@ body {
 
 .subtitle_right {
     color: white;
-    border-bottom: 1px solid #833535;
+    border-bottom: 1px solid #538335;
 }
 
 .courses__item {
@@ -303,7 +303,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #833535;
+    background-color: #538335;
 }
 
 .skills__item_html::before {
@@ -402,7 +402,7 @@ body {
 .experience__item__date {
     margin-top: 10px;
     font-size: 12px;
-    color: #833535;
+    color: #538335;
 }
 
 .examplies__body {
@@ -616,7 +616,7 @@ body {
         width: 100vw;
         max-width: 500px;
         transition: .3s;
-        background-color: #833535;
+        background-color: #538335;
         filter: grayscale(0);
         z-index: 10;
         overflow: auto;
