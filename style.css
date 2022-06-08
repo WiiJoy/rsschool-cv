@@ -169,7 +169,7 @@ body {
     width: 350px;
     margin: 0 auto;
     background-color: #1B1B1B;
-    color: #538335; 
+    color: #538335;
 }
 
 .photo__wrap {
@@ -509,6 +509,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+
 .code__wrap {
     width: 100%;
     font-family: 'Inconsolata', monospace;
@@ -517,15 +518,19 @@ body {
 .code_func {
     color: #c594a9;
 }
+
 .code_funk-name {
     color: #3f8bc2;
 }
+
 .code_regexp {
     color: #50a686;
 }
+
 .code_text {
     color: #5fb3b3
 }
+
 .code_var {
     color: #f99157
 }
@@ -809,7 +814,7 @@ body {
     .footer {
         border-radius: 0;
     }
-    
+
 }
 
 @media (max-width: 500px) {
