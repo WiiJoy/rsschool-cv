@@ -8,7 +8,7 @@
 
 *::-webkit-scrollbar {
     width: 5px;
-    background-color: none;
+    background: none;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -116,7 +116,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20;
+    gap: 20px;
 }
 
 .main__body {
@@ -554,7 +554,7 @@ body {
 
 .footer__link:hover {
     color: #1B1B1B;
-    text-shadow: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 1px 1px;
 }
 
 @media (max-width: 1280px) {
