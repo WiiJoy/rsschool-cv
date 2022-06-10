@@ -799,6 +799,14 @@ body {
         order: 4;
     }
 
+    .certificates {
+        order: 5;
+    }
+
+    .certificates__list {
+        flex-direction: row;
+    }
+
     .experience__line {
         display: none;
     }
@@ -865,6 +873,15 @@ body {
 
     .contacts__item, .languages__item {
         font-size: 12px;
+    }
+
+    .certificates__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .certificates__item {
+        width: 45%;
     }
 
     .education, .courses, .languages, .contacts {
