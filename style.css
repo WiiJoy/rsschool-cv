@@ -849,6 +849,11 @@ body {
         grid-column: 2 / 3;
     }
 
+    .examplies__item_kb {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
     .code {
         font-size: 0.7rem;
         line-height: 14px;
