@@ -443,6 +443,11 @@ body {
     grid-column: 2 / 4;
 }
 
+.examplies__item_kb {
+    grid-row: 5 / 7;
+    grid-column: 1 / 3;
+}
+
 .examplies__item__link {
     text-decoration: none;
     color: white;
