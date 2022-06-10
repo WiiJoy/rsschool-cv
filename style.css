@@ -267,6 +267,36 @@ body {
     color: #070719;
 }
 
+.certificates {
+    width: 100%;
+}
+
+.certificates__body {
+    width: 100%;
+}
+
+.certificates__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.certificates__item {
+    width: 100%;
+    list-style-type: none;
+}
+
+.certificates__item__link {
+    display: block;
+    width: 100%;
+}
+
+.certificates__item__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .skills__body {
     display: flex;
     justify-content: center;
@@ -441,6 +471,11 @@ body {
 .examplies__item_memory-game {
     grid-row: 3 / 5;
     grid-column: 2 / 4;
+}
+
+.examplies__item_kb {
+    grid-row: 5 / 7;
+    grid-column: 1 / 3;
 }
 
 .examplies__item__link {
@@ -764,6 +799,14 @@ body {
         order: 4;
     }
 
+    .certificates {
+        order: 5;
+    }
+
+    .certificates__list {
+        flex-direction: row;
+    }
+
     .experience__line {
         display: none;
     }
@@ -806,6 +849,11 @@ body {
         grid-column: 2 / 3;
     }
 
+    .examplies__item_kb {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
     .code {
         font-size: 0.7rem;
         line-height: 14px;
@@ -830,6 +878,15 @@ body {
 
     .contacts__item, .languages__item {
         font-size: 12px;
+    }
+
+    .certificates__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .certificates__item {
+        width: 45%;
     }
 
     .education, .courses, .languages, .contacts {
